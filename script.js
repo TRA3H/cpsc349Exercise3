@@ -1,7 +1,3 @@
-//so we need to create a calculator class
-// within this calculator it needs to have 3 things
-//clear , calculate, and display
-
 const calculator = {
     display: document.getElementById('display'),
     clearDisplay() 
@@ -25,12 +21,6 @@ const calculator = {
       }
     },
   };
-
-  //go to the dom
-  //everytime a new event is called
-  //we will add click event
-  //if the event matches what we called
-  //do it
   
   document.addEventListener('DOMContentLoaded', (event) => {
     document.querySelector('.calculator').addEventListener('click', (event) => {
