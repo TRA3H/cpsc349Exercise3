@@ -1,0 +1,70 @@
+/*i love orange youtube color pallet*/
+
+.body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator {
+    display: grid;
+    gap: 5px; 
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 220px; 
+    background-color: black;
+    border-radius: 20px; 
+    padding: 10px; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator input {
+    grid-column: span 4;
+    border-radius: 10px; 
+    border: 2px solid orange; 
+    color: white; 
+    background-color: black; 
+    padding: 0; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator button, .calculator input {
+    padding: 15px;
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator button {
+    background-color: orange; 
+    border: none; 
+    color: black; 
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator button:active {
+    background-color: #e56b00;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 2em;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo span {
+    padding: 0 5px; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo .hub {
+    background-color: orange;
+    color: black; 
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
